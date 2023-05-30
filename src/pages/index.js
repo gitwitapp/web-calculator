@@ -1,16 +1,17 @@
-import Head from "next/head";
+
+import Head from 'next/head';
+import Calculator from '@/components/Calculator';
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Calculator</title>
       </Head>
       <main>
-        <div>
-          hello, world!
-        </div>
+        <Calculator />
       </main>
     </>
   );
 }
+
